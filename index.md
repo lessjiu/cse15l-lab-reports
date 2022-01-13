@@ -1,6 +1,6 @@
 # CSE 15L 
 ## Week 2 Lab
-# editing markdown
+### editing markdown
 
 **Jessica Liu**
 
