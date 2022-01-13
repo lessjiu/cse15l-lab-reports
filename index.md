@@ -1,3 +1,5 @@
+[Lab Report 1](lab-report-1-week-2.html)
+
 # CSE 15L 
 ## Week 2 Lab
 ### editing markdown
