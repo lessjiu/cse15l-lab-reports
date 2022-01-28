@@ -14,6 +14,7 @@ incorrectly formatted link. This was caused by a bug in the original code, as
 it did not check whether or not the input had a `[`, `]`, `(` and `)`.
 
 **Code Change 2**
+
 ![](change2.png)
 
 - [Test file with failure-inducing input 2](https://github.com/lessjiu/markdown-parse/blob/main/case2.md)
@@ -28,6 +29,7 @@ caused by a bug in the original code, as it did not check whether there was a
 didn't check whether the `]` and `(` were right next to each other. 
 
 **Code Change 3**
+
 ![](change3.png)
 
 - [Test file with failure-inducing input 3](https://github.com/lessjiu/markdown-parse/blob/main/case3.md)
