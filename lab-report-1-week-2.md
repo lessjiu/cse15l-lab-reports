@@ -1,4 +1,4 @@
-## Lab Report 1
+## Lab Report 1- Week 2
 ### Remote Access
 
 **Step 1. Visual Studio Code**
