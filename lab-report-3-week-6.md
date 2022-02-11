@@ -1,5 +1,5 @@
 ## Lab Report 3- Week 6
-### Streamlining ssh Configuration
+### Streamlining `ssh` Configuration
 
 **Step 1**
 ![](config.png)
