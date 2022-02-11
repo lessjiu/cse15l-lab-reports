@@ -14,4 +14,4 @@
 **Step 3**
 ![](scp-lr3.png)
 
-- I can use the `scp` command to copy a file to my ieng6 account using just the alias. Here, I copied the file `example.md`. Then I used `ls` to check that the file was copied over. 
+- Now, I can use the `scp` command to copy a file to my ieng6 account using the alias. Here, I copied the file `example.md`. Then I used `ssh` to log into the account and `ls` to check that the file was copied over. 
