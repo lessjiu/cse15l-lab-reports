@@ -1,6 +1,5 @@
 ## Lab Report 5- Week 10
 ### Comparing Results 
-<br>
 
 I first added code to a file called `script.sh` that prints the file names and runs `java MarkdownParse` on each file. 
 
@@ -46,6 +45,6 @@ Given repo output: `[]`
 
 We know the implementation in `myMarkdown-parse` is incorrect, as it gave us a different output, while the implementation in `lab9-markdown-parse` is correct, as it gave us the expected output. <br>
 
-The bug in my MarkdownParse is that the implementation is that it does not account for spaces in the links. There cannot be spaces in the links inside the parentheses. Here the `&quot;` do not give us a title text as before because it indicates we want to use the actual quote symbol. So a space is not allowed inside the link. The code that should be fixed is the if statement shown below. It should check to make sure there is no space within the parentheses before adding a link.
+The bug in my MarkdownParse is that the implementation is that it does not account for spaces in the links. There cannot be spaces in the links inside the parentheses. Here the `&quot;` does not give us a title text like in test 1 because it indicates we want to use the actual quote symbol. So a space is not allowed inside the link. The code that should be fixed is the if statement shown below. It should check to make sure there is no space within the parentheses before adding a link.
 
 ![](mymarkdown.png)
