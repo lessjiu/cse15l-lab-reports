@@ -26,7 +26,7 @@ Given repo output: `[]`
 
 Both the implementations in `myMarkdown-parse` and in `lab9-markdown-parse` are incorrect, as they gave us a different output than expected. <br>
 
-The bug in the given repo's MarkdownParse is that the implementation does not account for spaces in links. Normally, spaces are not allowed in valid links. However, markup can contain links with a title text (text that pops up when you roll over the link), which is indicated by the link url, a space, and the title text in quotes. In this special case, the space is allowed. In the given implementation from lab 9, if there is a space in the link, it does not output a link. The code that should be fixed is in line 75 and is shown below. It should be changed to account for when there is a space follwed by some text in quotes.
+The bug in the given repo's MarkdownParse is that the implementation does not account for spaces in links. Normally, spaces are not allowed in valid links. However, markup can contain links with a title text (text that pops up when you roll over the link), which is indicated by the link url, a space, and the title text in quotes. In this special case, the space is allowed. In the given implementation from lab 9, if there is a space in the link, it does not output a link. The code that should be fixed is in line 75 and is shown below. It should be changed to account for when there is a space followed by some text in quotes.
 
 ![](titletext.png)
 
